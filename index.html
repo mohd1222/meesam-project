@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Kawish Foundation">
+	<meta name="keywords" content="Kawish , Kawish Foundation, Kawish and yash foundation, Kawish and yash foundation Aurangabad">
+	<meta name="robots" content="INDEX,FOLLOW">
+	<style>
+
+		.imgslide
+		{
+
+			width:auto;
+			margin-top: auto;
+		}
+	
+		.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  background-color: #14A085;
+  color:white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6 ease;
+} */
+
+/* marquee */
+.mar
+{
+	background-color:#14A085; 
+	color: whitesmoke;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.doan
+{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 450px;
+
+	
+}
+@media(max-width:480px)
+{
+.doan
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	height: 450px;
+	
+}
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+	</style>
+<meta charset="utf-8">
+<title>Kawish Foundation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("dot");
+		//  slides[0].style.display = "block";  
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace("active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += "active";
+		}
+		</script>
+	
+<div id="wrapper">
+	<!-- start header -->
+	<header  >
+        <div class="navbar navbar-default navbar-static-top"  >
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <a class="navbar-brand" href="index.html"><img class="navbar-brand imgnav" src="LATEST EVENT-20230806T102553Z-001/Website logo white.png" alt="logo"  /></a> 
+                 </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li> 
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<section id="featured" >
+		
+	<!-- Slider -->
+        <div id="main-slider" class="flexslider" >
+            <ul class="slides" class="item_introtext" >
+              <li>
+                <img class="imgslide" src="OUR RESULTS-20230806T102545Z-001/OUR RESULTS/Website Page 1.jpg"   />
+                
+              </li>
+              <li >
+                <img class="imgslide" src="WhatsApp Image 2021-12-12 at 2.18.21 PM.jpeg" alt=""  />
+                
+              </li>
+              <li>
+                <img class="imgslide" src="OUR RESULTS-20230806T102545Z-001/IMG_20211123_211755.jpg" alt=""  />
+               
+                
+              </li>
+			  <li>
+                <img class="imgslide" src="IMG-20170711-WA0000.jpg" alt=""  />
+               
+                
+              </li>
+			 <li>
+                <img class="imgslide" src="IMG-20170824-WA0009.jpg" alt=""  />
+             </li>
+			 <li>
+                <img class="imgslide" src="IMG-20180917-WA0075.jpg" alt=""  />
+             </li>
+			 <li>
+                <img class="imgslide" src="DSC_8241.JPG" alt=""  />
+             </li>
+			 <li>
+                <img class="imgslide" src="IMG-20191210-WA0012.jpg" alt=""  />
+             </li>
+			 <li>
+                <img class="imgslide" src="photo_2023-07-11_14-55-56.jpg" alt=""  />
+             </li>
+			 <li>
+                <img class="imgslide" src="OUR RESULTS-20230806T102545Z-001/photo_2023-07-23_14-09-16.jpg" alt=""  />
+             </li>
+			 <li>
+                <img class="imgslide" src="OUR RESULTS-20230806T102545Z-001/msg1387285448-171.jpg" alt="" />
+             </li> 
+
+            </ul>
+        </div>
+	<!-- end slider -->
+ 
+	</section>
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSenxfMRiuAzr5eYFdDG6G2WamJboC8BkZwUeKt7TJ_g5vQbWQ/viewform"><marquee behavior="faster" direction="left" class="mar"> <b>LATEST NEWS:</b> <b>REGISTRATION FOR UPSC FOUNDATION-CUM-PRELIM BATCH 2024 <i>CLICK HERE</i></b> </marquee></a>
+	<!-- button removed from here above line -->
+	<section class="callaction">
+	<div class="container">
+		<div class="row">
+			<div class="aligncenter" style="background-color: #efefef;">
+				<div class="aligncenter"><h1 class="aligncenter"><u>Our Results</u></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+	             <h2 class="aligncenter"></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> As we have witnessed two historic results of <b>MOHD NOOH SIDDIQUI (IRS)</b> and <b>SHAIKH SALMAN PATEL (IRS)</b>, the awareness among the 
+				masses and the participation of promising candidates have significantly increased. Among the 20 batches, almost 40 students are currently 
+				preparing for UPSC CSE 2023 in premium institutions in Delhi and other cities. In the new batch, almost 75 students are preparing for UPSC 
+				CSE 2023-24.
+				Due to the constant collective efforts, the results are now visible, and two of our students wrote UPSC CSE 2019 Mains, with one of them 
+				<b>(Ammara Siddiqui)</b> appearing for the interview stage. In 2020, three students wrote UPSC CSE 2020 Mains exam, and one student<b> (Mohammed 
+				Adil Siddiqui)</b> qualified for the Interview. Similarly, in 2021, five students wrote UPSC CSE 2021 Mains Exam.
+				The foundation's continuous efforts have yielded positive outcomes, inspiring and motivating more students to pursue the UPSC Civil Services 
+				Examination, and achieving notable progress over the years</div><br> 	</div>
+				
+				<div class="aligncenter" style="background-color: #efefef;">
+					<div class="aligncenter"><h1 class="aligncenter"><u>Our Results</u></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+		<h2 class="aligncenter"></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> As we have witnessed two historic results of <b>MOHD NOOH SIDDIQUI (IRS)</b> and <b>SHAIKH SALMAN PATEL (IRS)</b>, the awareness among the 
+					masses and the participation of promising candidates have significantly increased. Among the 20 batches, almost 40 students are currently 
+					preparing for UPSC CSE 2023 in premium institutions in Delhi and other cities. In the new batch, almost 75 students are preparing for UPSC 
+					CSE 2023-24.
+					Due to the constant collective efforts, the results are now visible, and two of our students wrote UPSC CSE 2019 Mains, with one of them 
+					<b>(Ammara Siddiqui)</b> appearing for the interview stage. In 2020, three students wrote UPSC CSE 2020 Mains exam, and one student<b> (Mohammed 
+					Adil Siddiqui)</b> qualified for the Interview. Similarly, in 2021, five students wrote UPSC CSE 2021 Mains Exam.
+					The foundation's continuous efforts have yielded positive outcomes, inspiring and motivating more students to pursue the UPSC Civil Services 
+					Examination, and achieving notable progress over the years</div><br> 	</div>
+					<div class="aligncenter" style="background-color: #efefef;">
+						<div class="aligncenter"><h1 class="aligncenter"><u>Our Results</u></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+			<h2 class="aligncenter"></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> As we have witnessed two historic results of <b>MOHD NOOH SIDDIQUI (IRS)</b> and <b>SHAIKH SALMAN PATEL (IRS)</b>, the awareness among the 
+						masses and the participation of promising candidates have significantly increased. Among the 20 batches, almost 40 students are currently 
+						preparing for UPSC CSE 2023 in premium institutions in Delhi and other cities. In the new batch, almost 75 students are preparing for UPSC 
+						CSE 2023-24.
+						Due to the constant collective efforts, the results are now visible, and two of our students wrote UPSC CSE 2019 Mains, with one of them 
+						<b>(Ammara Siddiqui)</b> appearing for the interview stage. In 2020, three students wrote UPSC CSE 2020 Mains exam, and one student<b> (Mohammed 
+						Adil Siddiqui)</b> qualified for the Interview. Similarly, in 2021, five students wrote UPSC CSE 2021 Mains Exam.
+						The foundation's continuous efforts have yielded positive outcomes, inspiring and motivating more students to pursue the UPSC Civil Services 
+						Examination, and achieving notable progress over the years</div><br> 	</div>
+			<div class="col-lg-12">
+				<div class="aligncenter"><h1 class="aligncenter">Our Activities</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span></div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="courses">
+		<div class="container">
+		
+				
+					
+		<div class="row">
+					<div class="col-md-4">
+					<div class="textbox">
+						<h3><li>Guidance Programs</li></h3>
+						<p>
+					Kawish and yash foundation conducts guidance program, motivational and orientation lectures to assist students preparing for UPSC, MPSC and other competitive exams exams. For this purpose, the trust invites many young successful candidates of UPSC, MPSC, and other exams, as well as highly qualified mentors, to guide the students. These programs are organized at various locations within Aurangabad city, providing valuable insights and mentorship to aspiring candidates.
+							</p>
+					</div> </div>
+					<div class="col-md-4">
+					<div class="textbox">
+						  <h3><li>Career Guidance Mentorings</li></h3>
+						<p>
+							Kawish and yash Foundation also focuses on career guidance mentoring, helping individuals explore and identify suitable career paths. This initiative aims to provide direction and support to students and young professionals in making informed decisions about their future endeavors.</p>
+					</div> </div>
+					<div class="col-md-4">
+					<div class="textbox">
+						  <h3><li>Token for Appreciation</li></h3>
+						<p>
+							Kawish and yash foundation conducts programs to recognize and appreciate talented students who have achieved distinction in their 10th and 12th examinations. This recognition boosts their confidence and serves as a motivation to continue excelling academically.</p>
+					</div> </div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+					<div class="textbox">
+						<h3><li>Tree Plantation Program</li></h3>
+						<p>
+							To promote environmental conservation and awareness, the trust organized tree plantation programs frequently , with the collaboration of other civil society and NGO's in this field. This initiative contributes to a greener and healthier environment for the community.</p>
+					</div> </div>
+					<div class="col-md-4">
+					<div class="textbox">
+						  <h3><li>COVID-19 Relief Efforts</li></h3>
+						<p>
+		During the lockdown period, Yash Charitable Foundation extended support to impoverished and distressed families by providing relief packages. These activities were carried out in various poor and daily wage earner's localities across different parts of the city, ensuring that those in need received essential supplies and assistance.</p>
+					</div> </div>
+					<div class="col-md-4">
+					<div class="textbox">
+						  <h3>Free Medical Checkup Camps</h3>
+						<p>
+							Alongside civil societies and other NGOs, the foundation organized free medical checkup camps. These camps primarily focus on backward areas, providing access to healthcare services for individuals who may face barriers in seeking medical attention.</p>
+					</div> </div>
+				</div>
+		</div>
+		</section>
+		
+	<section id="content" style="padding-top: 10px;">
+		<div class="col-lg-12">
+			<div class="aligncenter"><h1 class="aligncenter">Academic Activities</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span></div>
+		</div>
+		
+		<div class="container">
+			<div class="">
+				<div class="skill-home">
+					<div class="skill-home-solid clearfix">
+						<div class="col-10 text-center">
+							<span class="icons c2"><i class="fa fa-bullseye"></i></span>
+							<div class="box-area">
+								<h3>Classroom Activities</h3>
+								<p >For this purpose the kawish and yash foundation conducted entrance test exams or / screening test to identify deserving candidates for their educational programs. The foundation organizes classroom lectures, guiding students preparing for pre UPSC, MPSC, and other competitive exams. These sessions cover essential exam requirements, study discipline, and also include interactive activities like debate programs, speech competitions, and guest lectures.
+								</p>
+							</div>
+						</div>
+						<div class="col-10 text-center"  >
+							<span class="icons c1"><i class="fa fa-home"></i></span>
+							<div class="box-area" >
+								<h3 >Reading Hall(Study Center)</h3>
+								<p >The Reading Hall/Study Centre is a collaborative initiative by Kawish and Yasha Foundation in Aurangabad. Established on May 1, 2018, our mission is to provide a dedicated space for students preparing for competitive exams such as UPSC, MPSE, NEET, JEE, NET, and more. Our Reading Hall offers a serene and conducive environment for focused studying, equipped with Wi-Fi, comfortable seating, clean drinking water, and a tranquil atmosphere. Here, students can immerse themselves in their studies, free from distractions, and connect with like-minded peers to achieve academic excellence.</p>
+							</div>
+						</div>
+						
+						<div class="col-10 text-center">
+							<span class="icons c3"><i class="fa fa-book"></i></span>
+							<div class="box-area">
+								<h3>Donation of Books and Stationery</h3>
+								<p >Yash Charitable Foundation believes in collaboration and cooperation. In addition
+									to other NGOs, the trust has donated books and stationary items to municipality
+									run schools, primarily focusing on underprivileged areas and localities with
+									daily wage earners</p>
+							</div>
+						</div>
+						<div class="col-12 text-center">
+							<span class="icons c4"><i class="fa fa-globe"></i></span>
+							<div class="box-area">
+								<h3>Scholarships & Library</h3>
+								<p> The foundation aims to provide equal opportunities to economically weaker
+									sections of society. Yash Charitable Foundation offers scholarships to support
+									financially disadvantaged students, especially those preparing for competitive
+									exams. This initiative empowers students to pursue their education and compete
+									on an equal footing. <br>
+									Library: <br> From May 1, 2018, the trust established a library section that
+									houses books specifically related to UPSC, MPSC exams, NCERT textbooks, monthly
+									magazines, and newspapers. This resource is available for students to enhance
+									their knowledge and access relevant study materials.</p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+	</section>
+	<!-- Our result -->
+	
+		<div class="aligncenter" style="background-color: #efefef;">
+			<div class="aligncenter"><h1 class="aligncenter"><u>Our Results</u></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+<h2 class="aligncenter"></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> As we have witnessed two historic results of <b>MOHD NOOH SIDDIQUI (IRS)</b> and <b>SHAIKH SALMAN PATEL (IRS)</b>, the awareness among the 
+			masses and the participation of promising candidates have significantly increased. Among the 20 batches, almost 40 students are currently 
+			preparing for UPSC CSE 2023 in premium institutions in Delhi and other cities. In the new batch, almost 75 students are preparing for UPSC 
+			CSE 2023-24.
+			Due to the constant collective efforts, the results are now visible, and two of our students wrote UPSC CSE 2019 Mains, with one of them 
+            <b>(Ammara Siddiqui)</b> appearing for the interview stage. In 2020, three students wrote UPSC CSE 2020 Mains exam, and one student<b> (Mohammed 
+			Adil Siddiqui)</b> qualified for the Interview. Similarly, in 2021, five students wrote UPSC CSE 2021 Mains Exam.
+			The foundation's continuous efforts have yielded positive outcomes, inspiring and motivating more students to pursue the UPSC Civil Services 
+			Examination, and achieving notable progress over the years</div><br> 	</div>
+	
+	<div class="slideshow-container">
+		
+<br>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides" style="display: block;">
+    <div class="numbertext">1 / 2</div>
+    <img src="OUR RESULTS-20230806T102545Z-001/OUR RESULTS/DSC_8325.JPG" style="width:100%">
+    <div class="text">Mohd Nooh Siddiqui (IRS) AIR-326 (UPSC CSE 2017)</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 2</div>
+    <img src="OUR RESULTS-20230806T102545Z-001/OUR RESULTS/DSC_8280.JPG" style="width:100%">
+    <div class="text">Shaikh Salman (IRS) AIR-339 (UPSC CSE 2017)</div>
+  </div>
+
+  <!-- <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div> -->
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	<!-- End result -->
+	
+	<div class="col-lg-12 " style="background-color: #efefef; ">
+		<div class="aligncenter"><h2 class="aligncenter"><U>Affiliation</U></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> In this humongous task, the foundation has collaborated with Zakat Foundation Of India (ZFI), Sir Syed Educational Revolution Mission (SSERM), and Hamdard Study Circle (HSC) in Delhi. The collaboration aims to conduct and facilitate coaching and guidance for students from the Marathwada region, as well as provide support for sending them to institutions such as Jamia Milia Residential Coaching Academy, Jamia Hamdard, Zakat Foundation of India, Sir Syed Educational Revolution Mission, and Hamdard Study Circle in Delhi. (photos of hsc, zfi, etc)</div><br>
+			<br>
+    </div>
+	<!-- donation -->
+	<!-- <section> -->
+		<div class="container">
+			<div class="col-lg-12">
+				<div class="aligncenter"><h1 class="aligncenter"><a href="about.html"> Scan QR to </a><button style=""><a href="">donate</a></button></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p  ><b>AS OF NOW WE DO NOT HAVE PROVISION TO ACCEPT FOREIGN FUNDS.</b>
+					<i>Kawish & Yash Foundation is 12A i.e Registered as Tax Exempt Charity, 80G i.e Donor will get Tax Exemption and is Eligible to take CSR Activities.</i></p></div>
+					
+			</div>
+		
+			<div >
+			<img class="doan"  src="OUR RESULTS-20230806T102545Z-001/msg5753623971-117 (1).jpg" alt="" >
+		   </div>
+		</div>
+	<!-- </section> -->
+	<!-- End doation -->
+
+	<br>
+	<div class="testimonial-area">
+    <div class="testimonial-solid">
+        <div class="container">
+            <div class="testi-icon-area">
+                <div class="quote">
+                    <i class="fa fa-microphone"></i>
+                </div>
+            </div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
+                        <a href="#"></a>
+                    </li>
+                </ol>
+				<div class="col-lg-12">
+					<div class="aligncenter"><h1 class="aligncenter">Feedback</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span></div>
+				</div>
+                <div class="carousel-inner">
+					
+                    <div class="item">
+                        <p>All prayers for the great project to bring the minority students to the main stream of nation building.</p>
+                        <p>
+                            <b>- Unice Rishim Ismail (IAS) -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>The efforts taken by Kawish foundation(Aurangabad) are praiseworthy In Sha Allah this year will see atleast a couple of aspirants in the civils merit list.My best wishes to the team. </p>
+                        <p>
+                            <b>- Suhail A. Kazi (IRS) -</b>
+                        </p>
+                    </div>
+                    <div class="item active">
+                        <p>I felt great visiting this foundation, carried forward by a dedicated force of people. I hope they continue this great work, Helping in building the great foundation of the country.</p>
+                        <p>
+                            <b>- Arun Kumar (IRS)-</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>I felt a new fresh energy in the room as i have been a teacher . I can feel lot's of potential in the students . I wish the kawish foundation and all the "students best of luck".</p>
+                        <p>
+                            <b>- Akash Agrawal (IRS)-</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Our Contact</h5>
+					<address>
+					<strong>kawish & Yash Foundation</strong><br>
+					Plot No 7 ,Arif Colony ,Near samreen lawns Aurangabad-431001,Maharashtra.<br>
+					 Pin- 431001 , India</address>
+				    <p>
+						<i class="icon-phone"></i>Mobile: <br> +91-9822194408 <br> +91-9028888035 <br>
+						<a href="mailto:info@kawishandyashfoundation.com">info@kawishandyashfoundation.com</a>
+						<br>
+		
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Quick Links</h5>
+					<ul class="link-list">
+					    <li><a href="https://t.me/KawishAndYash">Telegram Channel</a></li>
+						<li><a href="gallery.html">Latest Events</a></li>
+						<li><a href="#">Terms and conditions</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<a href="gallery.html"><h5 class="widgetheading">Latest posts</h5></a>
+					 <ul class="link-list">
+						<li><a href="https://www.facebook.com/KawishFoundationAurangabad/photos/a.368583113549850/1169583450116475/">Kawish foundation got the award for Best UPSC coaching in the Maharashtra for minority.</a></li>
+						<li><a href="https://www.facebook.com/KawishFoundationAurangabad/photos/pb.100057060025420.-2207520000./680263319048493/?type=3">Seminar for urdu optional</a></li>
+						<li><a href="https://www.facebook.com/KawishFoundationAurangabad/photos/pb.100057060025420.-2207520000./481430595598434/?type=3">Two Days Work Shop</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<a href="gallery.html"><h5 class="widgetheading">Recent News</h5></a>
+					<ul class="link-list">
+					    <li><a href="https://www.facebook.com/100057060025420/posts/831527028759290/?mibextid=cr9u03">FREE* UPSC PRE-CUM-MAINS COACHING (Notification and Registration will be released in the first week of October).</a></li>
+						<li><a href="https://www.facebook.com/photo.php?fbid=785207750057885&set=pb.100057060025420.-2207520000.&type=3">FELICITATION PROGRAM</a></li>
+						<!-- <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							<span>&copy;All right reserved. AROZ developers ( ABRAR, RIZWAN, ZAID, OWAIS) </span><a href="#" target="_blank"></a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a href="https://www.facebook.com/KawishFoundationAurangabad?mibextid=ZbWKwL" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://instagram.com/kawish_and_yash_foundation1?igshid=OGQ5ZDc2ODk2ZA==" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCVU9BAYqHOHsLJbcOW94zCQ" data-placement="top" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script> 
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
+</body>
+</html>
