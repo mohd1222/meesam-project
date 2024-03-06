@@ -38,6 +38,11 @@ h1,h2, h3, h4, h5, h6 {
 	position:relative;
 }
 
+.paragraph{
+    margin: 85px;
+}
+
+
 #wrapper{
 	width:100%;
 	margin:0;	
@@ -1070,7 +1075,7 @@ footer .widget .social-network {
 }
 .box-area{
 	text-align: center;
-	height: 459px;
+	height: 350px;
 border: 1px solid #F3F3F3;
 padding: 0 15px 12px;
 padding-top: 41px;
@@ -1479,7 +1484,7 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
+ 
 
 .clear-marginbot{
 	margin-bottom:0;
