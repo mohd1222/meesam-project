@@ -1083,7 +1083,8 @@ margin-top: -42px;
 text-align: left;
 background-color: #F9F9F9;
 position: relative;
-overflow: scroll;}
+overflow: scroll;
+}
 /* --- Map --- */
 .map{
 	position:relative;
